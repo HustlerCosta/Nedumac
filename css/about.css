@@ -12,9 +12,8 @@
     min-height: 50vh;
 }
 
-#background-hero h1 {
-    align-items: center;
-    justify-content: center;
+#background-hero .text-side {
+    text-align: center;
     padding: 10rem 0;
 }
 
@@ -61,18 +60,9 @@ footer li {
         height: 100%;
     }
 
-    #background-hero {
-        background-image: linear-gradient (to bottom, rgba(233, 233, 233, 0.9), rgba(233, 233, 233, 0.9));
-        width: 100%;
-        min-height: 100vh;
-        background-size: cover;
-        
+    #background-hero .text-side {
+        padding: 2rem 0;
     }
-
-    /* .accessories-part .main-part {
-        background-color: #f1e9e99f;
-    } */
-
 
     footer .items ul {
         flex-direction: column;
