@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
     min-height: 50vh;
 }
 
@@ -60,8 +61,12 @@ footer li {
         height: 100%;
     }
 
+    #background-hero {
+        min-height: 20vh;
+    }
+
     #background-hero .text-side {
-        padding: 2rem 0;
+        padding: 25px 0;
     }
 
     footer .items ul {
